@@ -11,6 +11,7 @@ Demo:
 - React Icons
 - React Slick (for crousel)
 - React Flags Select
+- MocAPI Api
 
 ## Author
 

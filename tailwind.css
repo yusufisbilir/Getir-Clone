@@ -10,7 +10,7 @@
   html,
   body {
     font-family: "Open Sans", sans-serif;
-    @apply antialiased;
+    @apply antialiased bg-gray-50;
   }
 }
 
