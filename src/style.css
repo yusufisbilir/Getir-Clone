@@ -612,6 +612,7 @@ html,
   background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 .container {
@@ -990,8 +991,8 @@ html,
   padding-bottom: 2.5rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .pt-2 {
@@ -1000,10 +1001,6 @@ html,
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
 }
 
 .text-center {
