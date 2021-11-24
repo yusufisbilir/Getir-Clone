@@ -2,7 +2,7 @@
 
 ## Demo Link
 
-Demo:
+Demo: https://tailwindgetirclone.netlify.app/
 
 ## Topics
 
