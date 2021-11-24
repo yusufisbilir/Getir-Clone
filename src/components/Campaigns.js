@@ -1,13 +1,10 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Title from "./ui/Title";
-import { useWindowWidth } from "@react-hook/window-size";
 
 const Campaigns = () => {
   const [banners, setBanners] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-
-  const windowWidth = useWindowWidth();
 
   useEffect(() => {
     getBanners();
@@ -64,6 +61,7 @@ const Campaigns = () => {
               <img
                 className="w-full object-cover md:rounded-lg"
                 src={banner.image}
+                alt="banner"
               />
             </picture>
           </div>

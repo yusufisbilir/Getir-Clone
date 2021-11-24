@@ -9,7 +9,7 @@ const Menu = ({ title, items }) => {
           <ul className="grid gap-y-2">
             {items.map((item, key) => (
               <li key={key}>
-                <a href="#">{item.title}</a>
+                <a href="/#">{item.title}</a>
               </li>
             ))}
           </ul>

@@ -36,12 +36,14 @@ const HeroSection = () => {
             <img
               className="w-full h-[500px] object-cover"
               src="https://getir.com/_next/static/images/getir-mainpage-4-1751ad2d8fb42a88742d6751938da7e7.jpg"
+              alt="banner"
             />
           </div>
           <div>
             <img
               className="w-full h-[500px] object-cover"
               src="https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg"
+              alt="banner"
             />
           </div>
         </Slider>
@@ -49,7 +51,10 @@ const HeroSection = () => {
 
       <div className="md:container flex justify-between items-center relative md:absolute top-0 left:0 md:left-1/2 translate-x-0 md:-translate-x-1/2 h-full z-20">
         <div className="hidden md:block">
-          <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" />
+          <img
+            src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
+            alt="banner"
+          />
           <h3 className="mt-8 text-2xl font-semibold text-white">
             Dakikalar içinde <br />
             kapınızda

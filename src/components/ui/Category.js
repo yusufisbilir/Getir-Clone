@@ -3,7 +3,7 @@ import React from "react";
 const Category = ({ category: { id, title, image } }) => {
   return (
     <a
-      href="#"
+      href="/#"
       className="group flex flex-col gap-y-2 items-center text-center p-4 transition-colors hover:bg-purple-100 hover:rounded"
     >
       <img
