@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Title from "./ui/Title";
+import { useWindowWidth } from "@react-hook/window-size";
 
 const Campaigns = () => {
   const [banners, setBanners] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+
+  const windowWidth = useWindowWidth();
 
   useEffect(() => {
     getBanners();
@@ -49,15 +52,17 @@ const Campaigns = () => {
     ],
   };
   return (
-    <div className="container mx-auto py-8">
-      <Title>Kampanyalar</Title>
+    <div className="container mx-auto md:py-8">
+      <div className="hidden md:block">
+        <Title>Kampanyalar</Title>
+      </div>
       {isLoading && <h1>Loading...</h1>}
-      <Slider {...settings} className="-mx-2">
+      <Slider {...settings} className="md:-mx-2">
         {banners.map((banner) => (
           <div key={banner.id}>
-            <picture className=" block px-2">
+            <picture className=" block md:px-2">
               <img
-                className="w-full object-cover rounded-lg"
+                className="w-full object-cover md:rounded-lg"
                 src={banner.image}
               />
             </picture>

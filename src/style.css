@@ -912,6 +912,10 @@ html,
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -1430,6 +1434,11 @@ html,
     left: 50%;
   }
 
+  .md\:-mx-2 {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1473,6 +1482,16 @@ html,
 
   .md\:rounded-lg {
     border-radius: 0.5rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .md\:text-4xl {
