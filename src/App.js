@@ -15,9 +15,11 @@ function App() {
       <HeroSection />
       <Categories />
       <Campaigns />
-      <Favorites />
-      <MobileApp />
-      <Cards />
+      <div className="container">
+        <Favorites />
+        <MobileApp />
+        <Cards />
+      </div>
       <Footer />
     </>
   );

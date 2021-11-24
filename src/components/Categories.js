@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Category from "./ui/Category";
+import Title from "./ui/Title";
 
 const Categories = () => {
   const url = "https://619d3172131c600017088de4.mockapi.io/categories";
@@ -22,7 +23,7 @@ const Categories = () => {
   return (
     <div className="bg-white py-4">
       <div className="container mx-auto">
-        <h3 className="text-sm font-semibold mb-3">Kategoriler</h3>
+        <Title>Kategoriler</Title>
         <div className="grid grid-cols-10">
           {isLoading && <h1>loading...</h1>}
           {categories &&
