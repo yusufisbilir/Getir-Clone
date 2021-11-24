@@ -1,6 +1,6 @@
 const Cards = () => {
   return (
-    <div className="grid grid-cols-3 gap-x-5 mt-16">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-16">
       <div className="bg-white flex flex-col pt-16 pb-10 px-8 text-center">
         <img
           className="h-40"
